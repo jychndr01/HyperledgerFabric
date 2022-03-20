@@ -7,11 +7,11 @@ export CORE_PEER_TLS_ROOTCERT_FILE_ORG1=${PWD}/organizations/peerOrganizations/o
 export CORE_PEER_TLS_ROOTCERT_FILE_ORG2=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
 
 CHANNEL_NAME="samplechannel"
-CHAINCODE_NAME="CarShowroom"
+CHAINCODE_NAME="Carshowroom"
 CHAINCODE_VERSION="1"
-CHAINCODE_PATH="../chaincode/CarShowroom/build/install/CarShowroom"
+CHAINCODE_PATH="../chaincode/Carshowroom/build/install/Carshowroom"
 CHAINCODE_LANG="java"
-CHAINCODE_LABEL="CarShowroom_1"
+CHAINCODE_LABEL="Carshowroom_1"
 
 setEnvVarsForPeer0Org1() {
     export CORE_PEER_LOCALMSPID="Org1MSP"
